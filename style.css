@@ -3,24 +3,32 @@ h2,
 h3,
 h4,
 h5 {
-  font-family: 'Fredericka the Great'
+  font-family: 'Fredericka the Great';
+}
+
+html, body {
+  height: 100%;
 }
 
 body {
-  font-family: 'Roboto Slab'
+  font-family: 'Roboto Slab';
 }
 
 p,
 li,
 code {
-  font-size: 1.2em
+  font-size: 1.2em;
+}
+
+footer {
+
 }
 
 video {
   object-fit: cover
 }
 
-input[type=text], select {
+input[type=text] {
   width: 100%;
   padding: 12px 20px;
   margin: 8px 0px;
@@ -30,8 +38,34 @@ input[type=text], select {
   box-sizing: border-box;
 }
 
+
+input[type=submit] {
+  background: #391e06;
+  color: white;
+  border-radius: 4px;
+}
+
 div {
-  border-radius: 5px;
+  border-radius: 4px;
   background-color: #f2f2f2;
-  padding: 7px;
+  padding: 9px;
+}
+
+.page-wrap {
+  min-height: 100%;
+  /* equal to footer height */
+  margin-bottom: -110px;
+  max-width:1400px;
+}
+.page-wrap:after {
+  content: "";
+  display: block;
+}
+.site-footer, .page-wrap:after {
+  height: 110px;
+}
+
+.site-footer {
+  color: #eee;
+  background: #8e725a;
 }
