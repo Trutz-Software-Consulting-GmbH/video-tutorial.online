@@ -7,6 +7,7 @@
   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
   <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-w3schools.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Fredericka+the+Great|Roboto+Slab&display=swap">
+  <link rel="stylesheet" href="style.css">
   <title>Video Tutorial Online</title>
 </head>
 
@@ -21,23 +22,28 @@
       <p>Dein Tutorial für bessere LinkedIn Videos</p>
     </header>
 
-
     <!-- Content -->
     <div class="w3-row">
 
-      <!-- Blog entry -->
+      <!-- Intro Video -->
       <div class="w3-col l6 m6 s12">
         <div class="w3-card-2 w3-margin w3-white">
-          <video width="100%" poster="{{ site.springacademy.store_url }}{{ post.id }}/intro-hb.jpg" controls>
+          <video width="100%" controls>
             <source src="https://videotutorial.fra1.digitaloceanspaces.com/video-tutorial.online-1-hb.mp4" type="video/mp4">
             Your browser does not support the video tag.
           </video>
-          <div class="w3-container">
-              <h4><b>NEWSLETTER</b></h4>
-            <div class="w3-small">
-              <p>TEST</p>
-            </div>
-          </div>
+        </div>
+      </div>
+
+      <div class="w3-col l6 m6 s12">
+        <div id="form-209409-wrapper">
+          <form id="ktv2-form-209409" accept-charset="UTF-8" method="post" action="https://www.klick-tipp.com/api/subscriber/signin.html">
+            <input type="hidden" id="FormField_ApiKey" name="apikey" value="4ux4z5yogz8z4038" />
+            <input type="hidden" id="FormField_Digit" name="fields[fieldDigit]" value="" />
+            <label for="FormField_EmailAddress">Deine E-Mail-Adresse:</label>
+            <input type="text" id="FormField_EmailAddress" name="email" value="" size="40" />
+            <input type="submit" class="w3-button  w3-black w3-padding-large" id="FormSubmit" name="FormSubmit" value="Newsletter abonnieren" />
+          </form>
         </div>
       </div>
 
@@ -48,9 +54,9 @@
   <!-- Max width -->
 
   <!-- Footer -->
-<footer class="w3-container w3-dark-grey w3-padding-16 w3-margin-top w3-center w3-small">
-  <p>&copy; 2020 Trutz Software Consulting GmbH, Von-Flotow-Straße 24, D-45772 Marl | <a href="mailto:info@trutz-software-consulting.de">info@trutz-software-consulting.de</a></p>
-</footer>
+  <footer class="w3-container w3-dark-grey w3-padding-16 w3-margin-top w3-center w3-small">
+    <p>&copy; 2020 Trutz Software Consulting GmbH, Von-Flotow-Straße 24, D-45772 Marl | <a href="mailto:info@trutz-software-consulting.de">info@trutz-software-consulting.de</a></p>
+  </footer>
 
 </body>
 
