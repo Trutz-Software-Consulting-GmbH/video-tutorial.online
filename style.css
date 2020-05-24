@@ -20,9 +20,7 @@ code {
   font-size: 1.2em;
 }
 
-footer {
-
-}
+footer {}
 
 video {
   object-fit: cover
@@ -37,7 +35,6 @@ input[type=text] {
   border-radius: 4px;
   box-sizing: border-box;
 }
-
 
 input[type=submit] {
   background: #391e06;
@@ -55,12 +52,14 @@ div {
   min-height: 100%;
   /* equal to footer height */
   margin-bottom: -110px;
-  max-width:1400px;
+  max-width: 1400px;
 }
+
 .page-wrap:after {
   content: "";
   display: block;
 }
+
 .site-footer, .page-wrap:after {
   height: 110px;
 }
